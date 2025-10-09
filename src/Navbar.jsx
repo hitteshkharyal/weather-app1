@@ -11,7 +11,7 @@ function Navbar() {
         <span className="text-2xl font-bold tracking-tight">Weatherly</span>
         <span className={`ml-2 text-xs px-2 py-1 rounded ${isDay ? "bg-white/20 text-blue-100" : "bg-blue-900/40 text-blue-200"}`}>by hitteshkharyal</span>
       </div>
-      <div className="hidden sm:block text-sm opacity-80">Simple, fast, and beautiful weather app</div>
+      <div className="hidden sm:block text-sm opacity-80">Cheak Today's Weather</div>
     </nav>
   );
 }
